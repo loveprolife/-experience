@@ -1,0 +1,2 @@
+1.当月开始数第XX天
+echo date('Y-m-d 00:00:00.000',strtotime("+" . XX - 1 . " day", strtotime(date('Y-m-01 00:00:00.000', strtotime(date("Y-m-d"))))));
